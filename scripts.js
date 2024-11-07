@@ -1,27 +1,31 @@
-const englishTexts = {
-    title: "Digital Designer & Developer",
-    sideText: "Some description text here...",
-    mainContent: "Here is the main content area..."
+
+const translations = {
+    en: {
+        title: "Digital Designer & Developer",
+        about: "The skills I bring to the table is a constantly learning mindset, broad knowledge in programming and a focus on making a product useable and rational for actual users.",
+        side-contact: "Contact"
+        // Add other sections here
+    },
+    se: {
+        title: "Digital Designer & Utvecklare",
+        about: "Jag har med mig en ",
+        side-contact: "Kontakt"
+        // Add other sections here
+    }
+    // Add more languages as needed
 };
 
-const swedishTexts = {
-    title: "Digital Designer & Utvecklare",
-    sideText: "Någon beskrivningstext här...",
-    mainContent: "Här är huvudområdet..."
-};
-
-let currentLanguage = "english";
+let currentLanguage = 'en'; // Set a default language
 
 function switchLanguage() {
-    if (currentLanguage === "english") {
-        document.getElementById("title").innerText = swedishTexts.title;
-        document.getElementById("side-text").innerText = swedishTexts.sideText;
-        document.getElementById("main-content").innerText = swedishTexts.mainContent;
-        currentLanguage = "swedish";
-    } else {
-        document.getElementById("title").innerText = englishTexts.title;
-        document.getElementById("side-text").innerText = englishTexts.sideText;
-        document.getElementById("main-content").innerText = englishTexts.mainContent;
-        currentLanguage = "english";
-    }
+    currentLanguage = currentLanguage === 'en' ? 'sv' : 'en'; // Toggle between languages
+    const elements = document.querySelectorAll("[id]"); // Select all elements with an id
+
+    elements.forEach(el => {
+        if (translations[currentLanguage][el.id]) {
+            el.textContent = translations[currentLanguage][el.id];
+        }
+    });
 }
+
+
