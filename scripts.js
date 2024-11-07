@@ -1,6 +1,7 @@
 
 const translations = {
     en: {
+        languageButton: "Svenska",
         title: "Digital Designer & Developer",
         about: "The skills I bring to the table is a constantly learning mindset, broad knowledge in programming and a focus on making a product useable and rational for actual users.",
         sidecontact: "Contact",
@@ -10,6 +11,7 @@ const translations = {
         // Add other sections here
     },
     se: {
+        languageButton: "English",
         title: "Digital Designer & Utvecklare",
         about: "Jag är alltid intresserad av att lära mig mer, och har med mig en bred bas av programmering samt en fokus på att ta fram en produkt som är användbar och rationellt designad.",
         sidecontact: "Kontakt",
