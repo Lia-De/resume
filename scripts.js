@@ -8,6 +8,8 @@ const translations = {
         goal1: "Through design, I want to contribute to making life a little better, a little easier and a little more fun, by solving the right problem in the right way",
         goal2: "In order to really know that you understand something - try to explain it to someone else",
         goal3: "No knowledge is in vain - the more I know the more I have the capability to do",
+        mainTitleEducation: "Education",
+        mainTitleExperience: "Experience",
         // Add other sections here
     },
     se: {
@@ -18,6 +20,9 @@ const translations = {
         goal1: "Jag vill med design bidra till att göra livet lite bättre, lite enklare, lite roligare genom att lösa rätt problem på rätt sätt.",
         goal2: "För att verkligen veta om du förstår - förklara det för någon annan.",
         goal3: "En kunskap är aldrig förgäves - ju mer jag kan desto mer har jag möjlighet att göra",
+        mainTitleEducation: "Utbildning",
+        mainTitleExperience: "Arbetslivserfarenhet",
+
         // Add other sections here
     }
     // Add more languages as needed
