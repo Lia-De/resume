@@ -3,61 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jenny Evertsson - Digital Designer & Developer</title>
+    <title>Responsive Webpage</title>
     <link rel="stylesheet" href="resumestyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <header>
+        <h1>Jenny Evertsson</h1>
+        <h2 id="title">Digital Designer & Developer</h2>
+        <button onclick="switchLanguage()">Switch Language</button>
+    </header>
     <div class="container">
-        <!-- Sidebar Section -->
-        <aside class="sidebar">
-            <img src="Jenny_bw.jpg" alt="Your Photo" class="profile-photo">
-            <div class="contact">
-                <h3>Contact</h3>
-                <p><a href="mailto:jentap@gmail.com">jentap@gmail.com</a></p>
-                <p><a href="https://www.linkedin.com/in/jenny-tapani" target="_blank">LinkedIn</a></p>
-            </div>
-            <div class="short-facts">
-                <h3>Goals</h3>
-                <ul>
-                    <li>Through design, I want to contribute to making life a little better,
-                        a little easier and a little more fun, by solving the right problem the right way</li>
-                    <li>In order to really know that you know something - try to explain it to someone else</li>
-                    <li>No knowledge is in vain - the more I know the more I have the capability to do</li>
-                </ul>
-            </div>
+        <aside class="sidepanel">
+            <img src="Jenny_bw.jpg" alt="Profile Photo">
+            <p id="side-text">Some description text here...</p>
         </aside>
-
-        <!-- Main Content Section -->
-        <main>
-            <h1>Jenny Evertsson</h1>
-            <h2>Digital Designer & Developer</h2>
-
-            <section class="about">
-                <p>The skills I bring to the table can be summarized as a constantly learning mindset. In my hobby I focus on learning and teaching others new craft skills. In my role as a designer and developer I focus on efficiently making a useable product.</p>
-            </section>
-
-            <section class="education">
-                <h3>Education</h3>
-                <ul>
-                    <li>Bachelor's degree, Högskolan Kristianstad – 2021</li>
-                    <li>UX Design, Interaktionsdesign, Webbteknik, Visuell Kommunikation, Grafisk design, 
-                        Berättande med film, Användarcentrerad prototyputveckling</li>
-                </ul>
-            </section>
-
-            <section class="experience">
-                <h3>Professional Experience</h3>
-                <ul>
-                    <li>Job Title, Company Name – Year</li>
-                    <p>Brief description of your role and responsibilities.</p>
-                </ul>
-            </section>
+        <main class="mainpanel">
+            <p id="main-content">Here is the main content area...</p>
         </main>
-    </div --!>
-
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
