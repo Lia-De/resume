@@ -3,13 +3,13 @@ const translations = {
     en: {
         title: "Digital Designer & Developer",
         about: "The skills I bring to the table is a constantly learning mindset, broad knowledge in programming and a focus on making a product useable and rational for actual users.",
-        side-contact: "Contact"
+        sidecontact: "Contact",
         // Add other sections here
     },
     se: {
         title: "Digital Designer & Utvecklare",
-        about: "Jag har med mig en ",
-        side-contact: "Kontakt"
+        about: "Jag har med mig",
+        sidecontact: "Kontakt",
         // Add other sections here
     }
     // Add more languages as needed
